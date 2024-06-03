@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw-16"
+version = "1.0"
+description = ""
+authors = ["Женя <dtxtrump@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = ">=8.2.0"
+selene = ">=2.0.0rc4"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
